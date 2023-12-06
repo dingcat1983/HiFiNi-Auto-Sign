@@ -2,8 +2,8 @@
 脚本引用https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-lyric.js
 */
 // 2023-10-04
-let baidu_appid = $persistentStore.read("baidu_appid");
-let baidu_securityKey = $persistentStore.read("baidu_securityKey");
+let baidu_appid = 20190220000269283;
+let baidu_securityKey = Lz9aiMY_34jNWbbEIspI;
 const options = {
     appid: 20190220000269283,
     securityKey: Lz9aiMY_34jNWbbEIspI
