@@ -10,11 +10,11 @@ http:
       type: response
       require-body: true
       timeout: 10
-script-providers:
-  Spotifygecifanyi1:
-    url: https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-lyric.js,argument=appid=20190220000269283&securityKey=Lz9aiMY_34jNWbbEIspI
-    interval: 86400
   force-http-engine:
     - '*:80'
     - '*:4480' # BiliBili CDN
     - '*:9102' # BiliBili CDN
+script-providers:
+  Spotifygecifanyi1:
+    url: https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-lyric.js,argument=appid=20190220000269283&securityKey=Lz9aiMY_34jNWbbEIspI
+    interval: 86400
